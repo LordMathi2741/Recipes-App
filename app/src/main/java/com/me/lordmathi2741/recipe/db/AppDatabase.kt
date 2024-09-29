@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.me.lordmathi2741.recipe.models.Recipe
 
-@Database(entities = arrayOf(Recipe::class), version = 1)
+@Database(entities = arrayOf(Recipe::class), version = 2)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun recipeDao(): RecipeDao
     companion object {

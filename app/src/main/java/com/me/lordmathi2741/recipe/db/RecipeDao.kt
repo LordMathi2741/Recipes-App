@@ -8,7 +8,7 @@ import com.me.lordmathi2741.recipe.models.Recipe
 
 @Dao
 interface RecipeDao {
-    @Query("SELECT * FROM recipe_table")
+    @Query("SELECT * FROM recipes")
     fun getAll(): List<Recipe>
     @Delete
     fun delete(recipe: Recipe)
