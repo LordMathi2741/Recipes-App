@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">recipe</string>
+    <string name="home_button">Home</string>
+    <string name="recipe_button">Recipe</string>
+    <string name="favorite_button">Favorite Recipe</string>
+    <string name="home_title">Welcome to Recipe App!!</string>
+    <string name="app_title">Recipe App</string>
+</resources>
